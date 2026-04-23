@@ -57,9 +57,9 @@ npm run build
 # → dist/  (static files)
 ```
 
-## Deploy to Vercel
+## Deploy to Netlify
 1. Push repo to GitHub (include `public/data/`)
-2. Import project on vercel.com
+2. Import project on Netlify.com
 3. Build command: `npm run build`
 4. Output directory: `dist`
 5. Deploy — done.
