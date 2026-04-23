@@ -3,7 +3,7 @@
 A browser-based tool for Level Designers to explore player behavior across LILA BLACK maps.
 
 ## Live Demo
-> Deploy to Vercel — see ARCHITECTURE.md for steps.
+> Deployed to Render — see the live URL provided in the final submission.
 
 ## Tech Stack
 | Layer | Tool |

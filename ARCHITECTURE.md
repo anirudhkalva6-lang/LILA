@@ -71,6 +71,7 @@ pixel_y = (1 - v) × 1024     ← Y axis flipped: image top-left is (0,0)
 | Decision | Alternative | Why chosen |
 |---|---|---|
 | Pre-process to static JSON | Live Python API (FastAPI/Flask) | No server to maintain; all 796 match files = ~8MB total — trivially small for CDN |
+| Local Python Pipeline | Browser-based File Uploader | Browsers cannot efficiently parse 1,243 heavy Parquet files (gigabytes of raw data). A local pre-processing pipeline converts this massive dataset into lightweight JSON files for instant load times. |
 | Vanilla Leaflet + useEffect | react-leaflet | Full control over layer add/remove lifecycle; no version compatibility issues |
 | Three heatmap types: combat/deaths/loot | Include traffic (Position events) | Traffic heatmap showed noise across entire map; loot (12,885 events) is far more actionable |
 | One Zustand store | Multiple contexts | Single source of truth; every component in sync without prop drilling |
