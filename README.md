@@ -3,7 +3,7 @@
 A browser-based tool for Level Designers to explore player behavior across LILA BLACK maps.
 
 ## Live Demo
-> Deployed to Render — see the live URL provided in the final submission.
+> https://harmonious-belekoy-c80c4c.netlify.app/
 
 ## Tech Stack
 | Layer | Tool |
